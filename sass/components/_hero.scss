@@ -1,18 +1,19 @@
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin: auto;
-    max-width: 1600px;
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/hero-img.png);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: auto;
+  max-width: 1600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-img.png);
 
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 
-.hero__title {
+  &__title {
     align-content: center;
     margin: 0;
 
@@ -26,9 +27,9 @@
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
-}
+  }
 
-.hero__button {
+  &__button {
     display: block;
     margin: 0 auto;
     padding: 10px 32px;
@@ -46,4 +47,5 @@
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+  }
 }

@@ -96,7 +96,7 @@
 
         <!-- examples -->
 
-        <div class="container">
+        <div class="container examples">
           <ul class="examples__list list">
             <li class="examples__item">
               <div class="examples__thumb">
@@ -304,7 +304,7 @@
           </div>
           <address>
             <ul class="footer__list list adress">
-              <li class="footer___item">
+              <li class="footer__item">
                 <a
                   href="https://bit.ly/3pXMvUd"
                   target="_blank"
@@ -313,12 +313,12 @@
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer___item">
+              <li class="footer__item">
                 <a href="mailto:info@example.com" class="mail"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer___item">
+              <li class="footer__item">
                 <a href="tel:+380991111111" class="tel">+38 099 111 11 11</a>
               </li>
             </ul>
@@ -381,27 +381,29 @@
             </li>
           </ul>
         </div>
-        <form class="subscription">
-          <h2 class="subscription__title">Подпишитесь на рассылку</h2>
-          <div class="subscription__section">
-            <label for="">
-              <input
-                class="subscription__input"
-                type="text"
-                name="subscription"
-                placeholder="E-mail"
-              />
-            </label>
-            <button type="button" class="subscription__btb">
-              Подписаться
-              <span>
-                <svg class="subscription__icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </span>
-            </button>
-          </div>
-        </form>
+        <div>
+          <form class="subscription">
+            <h2 class="subscription__title">Подпишитесь на рассылку</h2>
+            <div class="subscription__section">
+              <label for="">
+                <input
+                  class="subscription__input"
+                  type="text"
+                  name="subscription"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="subscription__btb">
+                Подписаться
+                <span>
+                  <svg class="subscription__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

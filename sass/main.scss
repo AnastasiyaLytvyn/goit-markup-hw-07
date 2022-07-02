@@ -1,5 +1,5 @@
 // variables
-@import "./utils/_variables";
+@import "./utils/variables";
 
 // base styles
 @import "./base/base";
@@ -14,6 +14,9 @@
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
+@import "./components/socials";
+@import "./components/subscription";
+@import "./components/adress";
 @import "./components/modal";
 @import "./components/work";
 @import "./components/examples";
